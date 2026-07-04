@@ -1,0 +1,41 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Test reports
+reports/*
+!reports/.gitkeep
+
+# Screenshots
+screenshots/*
+!screenshots/.gitkeep
+
+# Playwright traces
+traces/*
+!traces/.gitkeep
+
+# Coverage
+.coverage
+htmlcov/
+
+# Environment variables
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
