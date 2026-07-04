@@ -12,6 +12,8 @@ When a test fails, the framework automatically captures evidence such as screens
 
 The test cases do not assume which case will fail. Screenshots are triggered automatically by the test framework only when a test fails.
 
+This project focuses on the regression test implementation itself. It can be executed locally and is structured to be integrated into CI tools such as Jenkins in a later stage.
+
 ## Tech Stack
 
 | Category | Tool |
